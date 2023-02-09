@@ -11,7 +11,7 @@ module.exports.getQuestion = async (req, res) => {
         id: option._id,
         text: option.text,
         votes: option.votes,
-        link_to_vote: `http://localhost:8000/options/${option._id}/add_vote`
+        link_to_vote: `https://polling-api-ten.vercel.app/options/${option._id}/add_vote`
       }))
     };
     res.json(formattedQuestion);
