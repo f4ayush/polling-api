@@ -1,4 +1,4 @@
-const Question = require('../models/Question');
+const Question = require('../models/question');
 
 module.exports.deleteOption = async (req, res) => {
     try {

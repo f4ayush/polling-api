@@ -1,4 +1,4 @@
-const Question = require('../models/Question');
+const Question = require('../models/question');
 
 // View a question and its options with a link to vote
 module.exports.getQuestion = async (req, res) => {
